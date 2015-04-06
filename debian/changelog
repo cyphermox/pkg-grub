@@ -3,7 +3,12 @@ grub2 (2.02~beta2-23) UNRELEASED; urgency=medium
   [ Debconf translations ]
   * [da] Danish (Joe Dalton; closes: #781333).
 
- -- Felix Zielcke <fzielcke@z-51.de>  Sat, 28 Mar 2015 12:17:08 +0100
+  [ Mathieu Trudel-Lapierre ]
+  * Backport from upstream:
+    - arp, icmp: Fix handling in case of oversized or invalid packets.
+      (LP: #1428005)
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Mon, 06 Apr 2015 14:44:22 -0400
 
 grub2 (2.02~beta2-22) unstable; urgency=medium
 
